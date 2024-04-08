@@ -1,0 +1,90 @@
+html{
+    background-color:#FFDFDF;
+}
+:root{
+    --green: #AEDEFC;
+    --orange: rgb(200, 132, 7);
+    --black: #1e1e1f;
+    --white: rgb(255, 255, 255);
+    --light-color: #666;
+    --box-shadow: .5rem .5rem 0 #AEDEFC;
+    --border: .2rem solid rgba(0,0,0,1);
+    --text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
+    --outline: .1rem solid rgba(0,0,0,1);
+} 
+
+.about .about-content .about1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+
+.about .about-content .about1 .img{
+    flex: 1 1 45rem;
+}
+
+.about .about-content .about1 .img img{
+    width: 100%;
+}
+
+.about .about-content .about1 .content{
+    flex: 1 1 45rem;
+}
+
+.about .about-content .about1 .content p{
+    font-size: 3.5rem;
+}
+
+.fish{
+    width:30%;}
+
+.content{
+    font-size:5rem;
+    text-align:center;
+}
+.about1{
+    text-align:center;
+}
+
+.quiz {
+    /* text-align:center; */
+    font-size:3rem;
+    color:#6ac2f8;
+    
+}
+.quiz h2{
+    font-size:4rem;
+    text-shadow: var(--text-shadow);
+    color:black;
+
+}
+input[type="radio"] {
+    transform: scale(2);
+  }
+
+  hr {
+    display: inline-block;
+    border: none;
+    border-top: 3px solid #000;
+    width: 100%;
+  }
+
+.quiz h1{
+    font-size:7rem;
+    color:var(--green);
+}
+
+.dogpic1{
+    width:12rem;
+    height:12rem;
+}
+
+
+.footer{
+    width:100%;
+}
+
+.headingtitle{
+    text-align:center;
+}
